@@ -19,12 +19,12 @@ $ virtualenv venv
     $ venv\Scripts\activate
     ```
 
-Then install the requirements found in requirements.txt
+5) Then install the requirements found in requirements.txt
 
 ```
 $ pip install -r requirements.txt
 ```
-5) Set the FLASK_APP variable in your command prompt or shell
+6) Set the FLASK_APP variable in your command prompt or shell
     * Linux
     ```
     $ export FLASK_APP=app.py
@@ -33,7 +33,7 @@ $ pip install -r requirements.txt
     ```
     $ set FLASK_APP=app.py
     ```
-6) Run the app!
+7) Run the app!
 ```
 flask run
 ```
