@@ -1,0 +1,79 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketer</title>
+    <link rel="stylesheet" href="../static/css/foundation.css">
+    <link rel="stylesheet" href="../static/css/app.css">
+  </head>
+  
+  <body>
+    <!-- DESKTOP NAVIGATION -->
+    <nav class="top-bar" id="responsive-menu">
+      <div class="wrap">
+        <div class="top-bar-left">
+          <h3>Ticketer</h3>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('tickets') }}">Tickets</a></li>
+            <li><a href="{{ url_for('foundation_examples')}}">Foundation Examples</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="wrap">
+        <h1>Active Tickets</h1>
+        <a href="#" class="button">Create Ticket</a>
+      </div>
+    </section>
+
+    <!-- MAIN SECTION -->
+    <section class="main">
+      <div class="wrap">
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="wrap row small-up-1 medium-up-3">
+        <div class="column">
+          <h4>Contact Info</h4>
+          <hr>
+          <a href="#"><span>Phone</span> 234 234 2340</a>
+          <a href="#"><span>Email</span> info@company.com</a>
+          <a href="#"><span>Address</span> 123 Center Street</a>
+        </div>
+        <div class="column">
+          <h4>Site Map</h4>
+          <hr>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Contact Us</a>
+        </div>
+         <div class="column">
+          <h4>Social Media</h4>
+          <hr>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram Us</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="static/js/vendor/jquery.js"></script>
+    <script src="static/js/vendor/what-input.js"></script>
+    <script src="static/js/vendor/foundation.js"></script>
+    <script src="static/js/app.js"></script>
+  </body>
+</html>
