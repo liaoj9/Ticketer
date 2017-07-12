@@ -13,9 +13,46 @@
 }
 
 /* - - - - - - - - -------------------- - - - - - - - - - - -
-                            NAV
+                        NAV MOBILE
    - - - - - - - - -------------------- - - - - - - - - - -*/
 
+
+
+/* - - - - - - - - -------------------- - - - - - - - - - - -
+                        NAV DESKTOP
+   - - - - - - - - -------------------- - - - - - - - - - -*/
+
+.nav-desktop {
+  background-color: #222;
+  height: 80px;
+  padding: 0;
+}
+
+.site-logo {
+  color: white;
+  line-height: 80px;
+}
+
+.nav-desktop .menu-desktop {
+  line-height: 80px;
+  background-color: transparent;
+}
+
+.nav-desktop a {
+  display: inline-block;
+}
+
+.menu-desktop > li > a {
+  display: inline-block;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+}
+
+.menu-desktop > li > a:hover {
+  background-color: rgba(255,255,255, 0.1);
+}
 
 /* - - - - - - - - -------------------- - - - - - - - - - - -
                            HERO
