@@ -11,20 +11,22 @@
   </head>
 
   <body>
+    <!-- MOBILE NAVIGATION -->
+
     <!-- DESKTOP NAVIGATION -->
-    <nav class="top-bar" id="responsive-menu">
-      <div class="wrap">
+    <nav class="top-bar nav-desktop" id="responsive-menu">
+      <!-- <div class="wrap"> -->
         <div class="top-bar-left">
-          <h3>Ticketer</h3>
+          <h3 class="site-logo">Ticketer</h3>
         </div>
         <div class="top-bar-right">
-          <ul class="menu">
+          <ul class="menu menu-desktop">
             <li><a href="{{ url_for('index') }}">Home</a></li>
             <li><a href="{{ url_for('tickets') }}">Tickets</a></li>
             <li><a href="{{ url_for('foundation_examples')}}">Foundation Examples</a></li>
           </ul>
         </div>
-      </div>
+      <!-- </div> -->
     </nav>
 
 
